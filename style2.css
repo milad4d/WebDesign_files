@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    gap: 10px 10px;
+    grid-template-areas: 'logo navbar navbar navbar .'
+    'main main  aside . . '
+     'footer footer aside . .'
+     ;
+}
+.container >*{
+    background-color: blue;
+    color: black;
+}
+
+.logo{
+    grid-area: logo;
+}
+.navbar{
+    grid-area: navbar;
+}
+.main{
+    grid-area: main;
+}
+.aside{
+    grid-area: aside;
+}
+.footer{
+    grid-area: footer;
+}
+
+
