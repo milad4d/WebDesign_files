@@ -1,109 +1,39 @@
-// document.querySelector(".box").addEventListener('click',function(){
-//     this.style.backgroundColor = 'red';
+// let result = document.querySelectorAll('#box');
+// let linkChanger=document.querySelector('#linkChanger');
+
+
+// linkChanger.addEventListener('click',function(event){
+//     let anchor=document.querySelector('a');
+//     anchor.href='https://digikala.com'
 // })
 
-let x='milad\'milad\'';
-console.log(x)
+// linkChanger.onclick=function(event){
+//     let anchor=document.querySelector('a');
+//     anchor.setAttribute('href','https://digikala.com')
+// }
 
-let y = 'hello %s milad %d';
-console.log(y,'sssss',10)
 
-let z=`milslls
-'sasasas'
-${x}`;
-console.log(z)
+// result.innerHTML='milad'.repeat(5);
 
 
-let output = `
-    <div class="alert">
-    ${x}
+// let data='milad,takjo,34';
+// let person=data.split(',');
+// console.log(person)
 
-    </div>
-`
 
-console.log(output.length)
+// let text1='5';
+// console.log(text1.padStart(4,'-'))
 
+// let text2=5;
+// text2=text2.toString();
+// console.log(text1.padStart(4,'-'))
 
-let fname='milad';
-console.log(fname.charAt(2))
-
-console.log(fname.slice(2))
-
-let lname ='takjoo';
-
-console.log(fname.concat(lname,'nnn'))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// let box=document.querySelector('.box');
+// box.innerHTML=box.innerHTML.replaceAll('{name}','milad');
+// box.innerHTML=box.innerHTML.replaceAll('{age}','20');
+// box.innerHTML=box.innerHTML.replaceAll('{work}',function(value,key){
+//     console.log(value);
+// });
 
 
 
