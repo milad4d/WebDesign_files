@@ -1,6 +1,10 @@
-let books=['aaaa','bbbb']
+let z = {
+    document:null,
+    setDocument:function(documentObject){
+        this.document=documentObject;
+    },
 
-
-books.forEach(function(value,key){
-    console.log(key+'=>'+value);
-})
+    ready:function(callback){
+        this.document.addEventListener('DOMContentLoaded',callback)
+    }
+}
