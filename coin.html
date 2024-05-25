@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mainDiv{
+            width: 400px;
+            height: 600px;
+            background-color: blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            color: white;
+        }
+        #coinImg:focus{
+            transform: rotate(45deg);      
+          }
+    </style>
+</head>
+<body>
+    <div id="mainDiv">
+        <p id="coinNum">0</p>
+        <img src="1.png" alt="" id="coinImg" width="100px" height="100px">
+        <p id="coinEnergy">20</p>
+        <button id="coinBoost">Booooost</button>
+        <p id="boostText"></p>
+        <button id="reset">reset</button>
+    </div>
+
+
+    <script src="game.js"></script>
+</body>
+</html>
