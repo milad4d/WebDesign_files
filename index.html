@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="jquery.js"></script>
+    <script>
+
+        let c=0;
+
+        $(document).ready(function(){
+            $("#div").click(function(){
+                if(c==0){
+              $("#div").css("width", "100vw");
+              $("#div").css("height", "100vh");
+              c=1;}
+            else{
+                $("#div").css("width", "10vw");
+                $("#div").css("height", "10vh");
+                c=0;
+            }
+            
+            
+
+            });
+          });
+         
+
+    </script>
+
 </head>
 <body>
+<div style="background-color: blue; width: 10vw;" id="div" >Button</button>
+
+
+
     
-
-
-    <script src="java.js"></script>
+   
 </body>
 </html>
