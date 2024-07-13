@@ -1,0 +1,11 @@
+{
+    "products": [
+        {
+            "title":"product1",
+            "image":"/assets/images/image1",
+            "link":"https://google.com"
+
+        }
+    ]
+    
+}
