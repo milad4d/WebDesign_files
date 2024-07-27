@@ -1,0 +1,38 @@
+.mainDiv{
+    width: 80vw;
+    height: 50pt;
+    background-color: blue;
+    div{
+        color: white;
+        padding: 10pt;
+        cursor: pointer;
+        &:hover{
+            background-color: greenyellow;
+            color: black;
+        }
+    }
+};
+#resp{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+
+    div:not(:first-child,.show){
+        display: none;
+    }
+    #resp{
+        display: block;
+    }
+    .mainDiv{
+        flex-direction: column;
+        width: 20vw;
+        height: 20vh;
+    }
+    .show{
+            display: initial;  
+    }
+    .respHeight{
+        height: 45vh;
+    }
+}
